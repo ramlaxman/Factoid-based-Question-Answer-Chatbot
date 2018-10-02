@@ -6,14 +6,16 @@ Factoid Question Answering Chatbot is a simpler version of question answering sy
 ## SYNOPSIS
 
 To run bot:
-```sh
-	$ python3 P2.py <path_to_article>
-```
+
+``
+$ python3 P2.py <path_to_article>
+``
 
 For example:
-```sh
-	$ python3 P2.py dataset/Marvel_Comics.txt
-```
+
+``
+$ python3 P2.py dataset/Marvel_Comics.txt
+``
 
 Once bot is up and start running, it will ask you to enter your question. And respond with answer.
 
@@ -21,26 +23,26 @@ Once bot is up and start running, it will ask you to enter your question. And re
 
 Architecture of this bot closely follow the architecture described in the book. Main modules of the QA System are:
 
-> **Question Processing** : In this step, bot identifies type of question and
-	type of answer it expects
+_**Question Processing** : In this step, bot identifies type of question and
+	type of answer it expects_
 
-> **Passage Retrieval** : It generates question vector and vectors of passage
+_**Passage Retrieval** : It generates question vector and vectors of passage
 	using TF-IDF as feature, it computes cosine similarity between question 
 	vector and passage vector returning top 3 closely resembling passage. Furthur
 	improvement to this step has been done by removing Stop Words and using 
-	Porter Stemmer
+	Porter Stemmer._
 
-> **Sentence Retrieval** : After retrieving passage, it tokenize sentences and
+_**Sentence Retrieval** : After retrieving passage, it tokenize sentences and
 	computes ngram similarity between question and sentence. Thus identifying 
-	most relevant sentences. 
+	most relevant sentences._
 
-> **Answer Processing** : Based on the expected answer type, then it process
+_**Answer Processing** : Based on the expected answer type, then it process
 	the answer sentence to identify particular entity using name-entity
-	recognization technique and part of speech tagging technique
+	recognization technique and part of speech tagging technique._
 
-> **Text summarization** : If type of question is definition or bot is unable
+_**Text summarization** : If type of question is definition or bot is unable
 	to identify named-entity from question, it summarize the text using ngram
-	tilting technique
+	tilting technique._
 
 ## RUNNING THE TEST
 
