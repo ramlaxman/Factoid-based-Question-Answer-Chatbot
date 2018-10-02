@@ -1,19 +1,20 @@
 # FACTOID QUESTION ANSWERING CHATBOT
 
-
 Factoid Question Answering Chatbot is a simpler version of question answering system. It answers to the question asked by user in near real time using information retrieval and natural language processing technique. Chatbot is able to answer Factoid and Summarization based question from article of various domains with an accuracy of 70.16% (measured on SQuAD dataset of stanford).
 
 ## SYNOPSIS
 
 To run bot:
-```sh
-	$ python3 P2.py <path_to_article>
-```
+
+``
+  $ python3 P2.py <path_to_article>
+``
 
 For example:
-```sh
-	$ python3 P2.py dataset/Marvel_Comics.txt
-```
+
+``
+  $ python3 P2.py dataset/Marvel_Comics.txt
+``
 
 Once bot is up and start running, it will ask you to enter your question. And respond with answer.
 
@@ -21,8 +22,7 @@ Once bot is up and start running, it will ask you to enter your question. And re
 
 Architecture of this bot closely follow the architecture described in the book. Main modules of the QA System are:
 
-> **Question Processing** : In this step, bot identifies type of question and
-	type of answer it expects
+> **Question Processing** : In this step, bot identifies type of question and type of answer it expects
 
 > **Passage Retrieval** : It generates question vector and vectors of passage
 	using TF-IDF as feature, it computes cosine similarity between question 
