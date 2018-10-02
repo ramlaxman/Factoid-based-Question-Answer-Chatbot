@@ -94,70 +94,74 @@ Bot is able to perform cross domain. This submission includes following dataset 
 
 #### Marvel Comics (dataset/Marvel_Comics.txt)
 Sample Questions:
-> What Marvel character's stories are set in an area resembling the American Southwest?
 
-> Who originally founded Marvel Comics?
+* What Marvel character's stories are set in an area resembling the American Southwest?
 
-> When was Marvel founded?
+* Who originally founded Marvel Comics?
 
-> Who was Marvel's first true full-time editor?
+* When was Marvel founded?
 
-> Who co-created Captain America?
+* Who was Marvel's first true full-time editor?
 
-> Besides Simon, who co-created Captain America?
+* Who co-created Captain America?
 
-> What two real life persons were also part of the magazine feature alongside fictional Marvel characters?
+* Besides Simon, who co-created Captain America?
 
-> Who took over as head of Marvel in 1978?
+* What two real life persons were also part of the magazine feature alongside fictional Marvel characters?
+
+* Who took over as head of Marvel in 1978?
 
 #### Mammal (dataset/Mammal.txt)
 Sample Questions:
->About how small is the average bumble bee bat?
 
-> How many mammals were known to exist up to 2006?
+* About how small is the average bumble bee bat?
 
-> Which early mammalian ancestor produced non-mammalian Dimetroden?
+* How many mammals were known to exist up to 2006?
 
-> Who wrote the "Principles of Classification and a Classification of Mammals?
+* Which early mammalian ancestor produced non-mammalian Dimetroden?
+
+* Who wrote the "Principles of Classification and a Classification of Mammals?
 
 #### Alloy (dataset/Alloy.txt)
 Sample Questions:
 
-> Who shouted "Eureka!" while checking the purity of a crown?
+* Who shouted "Eureka!" while checking the purity of a crown?
 
-> Who created the first process for the mass production of tool steel?
+* Who created the first process for the mass production of tool steel?
 
-> Who discovered precipitation hardening alloys?
+* Who discovered precipitation hardening alloys?
 
-> What are alloys defined by?
+* What are alloys defined by?
 
-> What is solid solution metal elements classified as?
+* What is solid solution metal elements classified as?
 
-> Where is the only iron deposit on earth?
+* Where is the only iron deposit on earth?
 
-> Where is tin mostly found?
+* Where is tin mostly found?
 
-> When were precipitation hardening alloys discovered?
+* When were precipitation hardening alloys discovered?
 
 #### Rajasthan (dataset/Rajasthan.txt)
 Sample Questions:
-> Where were the Marathas from?
 
-> What is the most populous city in the Thar Desert?
+* Where were the Marathas from?
 
-> What is the largest city for polyster blouse pieces in Rajasthan?
+* What is the most populous city in the Thar Desert?
+
+* What is the largest city for polyster blouse pieces in Rajasthan?
 
 #### Anthropology (dataset/Anthropology.txt)
 Sample Questions:
-> What is anthropology a study of?
 
-> How many educational institutions had some curriculum in anthropology by 1898?
+* What is anthropology a study of?
 
-> Where did early anthropology originate?
+* How many educational institutions had some curriculum in anthropology by 1898?
 
-> Why type of anthropology is the study of social organization a central focus of?
+* Where did early anthropology originate?
 
-> When was anthropology used as a term for comparative anatomy?
+* Why type of anthropology is the study of social organization a central focus of?
+
+* When was anthropology used as a term for comparative anatomy?
 
 
 #### Buddhism (dataset/Buddhism.txt)
